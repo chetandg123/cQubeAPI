@@ -1,0 +1,60 @@
+{
+    "program": "diksha_etb_etb-coverage",
+    "input": {
+        "type": "object",
+        "properties": {
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_live_tb": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_energised": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "state_energised": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_physical_textbooks_excluding_adopted": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "etb_coverage_%": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "etb_coverage": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "latitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "longitude": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "state_name",
+            "state_code",
+            "total_live_tb",
+            "total_energised",
+            "state_energised",
+            "total_physical_textbooks_excluding_adopted",
+            "etb_coverage_%",
+            "etb_coverage",
+            "latitude",
+            "longitude"
+        ]
+    }
+}

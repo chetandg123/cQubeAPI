@@ -1,0 +1,45 @@
+{
+    "program": "diksha_etb_qr-coverage",
+    "input": {
+        "type": "object",
+        "properties": {
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "total_qr_count": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "qr_covered": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "qr_coverage": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "latitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "longitude": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "state_name",
+            "total_qr_count",
+            "qr_covered",
+            "qr_coverage",
+            "state_code",
+            "latitude",
+            "longitude"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "program": "NISHTHA_participants_per_program",
+    "input": {
+        "type": "object",
+        "properties": {
+            "program_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "total_participants": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "program_name",
+            "total_participants"   
+        ]
+    }
+}

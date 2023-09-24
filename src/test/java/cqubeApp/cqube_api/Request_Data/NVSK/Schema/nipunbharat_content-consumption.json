@@ -1,0 +1,60 @@
+{
+    "program": "nipunbharat_content-consumption",
+    "input": {
+        "type": "object",
+        "properties": {
+            "textbook_id": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "resource_list": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "medium": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "grade": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "subject": {
+                "type": "string",
+                "shouldNotNull": true
+            },
+            "mime_type": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "average_rating": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_no_of_ratings": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_no_of_plays": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_play_time": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "textbook_id",
+            "resource_list",
+            "medium",
+            "grade",
+            "subject",
+            "mime_type",
+            "average_rating",
+            "total_no_of_ratings",
+            "total_no_of_plays",
+            "total_play_time"
+        ]
+    }
+}

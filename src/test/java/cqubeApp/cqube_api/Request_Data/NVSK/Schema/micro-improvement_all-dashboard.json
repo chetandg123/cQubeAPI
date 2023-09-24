@@ -1,0 +1,60 @@
+{
+    "program": "micro-improvement_all-dashboard",
+    "input": {
+        "type": "object",
+        "properties": {
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "latitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "longitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+             "started_microimprovement": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+             "total_microimprovement_projects": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_microimprovement_started": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_microimprovement_inprogress": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_microimprovement_submitted": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_microimprovement_submitted_with_evidence": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "state_name",
+            "state_code",
+            "latitude",
+            "longitude",
+            "started_microimprovement",
+            "total_microimprovement_projects",
+            "total_microimprovement_started",
+            "total_microimprovement_inprogress",
+            "total_microimprovement_submitted",
+            "total_microimprovement_submitted_with_evidence"
+        ]
+    }
+}

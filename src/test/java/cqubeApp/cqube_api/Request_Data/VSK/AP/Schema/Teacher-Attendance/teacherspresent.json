@@ -1,0 +1,57 @@
+{
+    "program": "teacherspresent",
+    "input": {
+        "type": "object",
+        "properties": {
+            "date": {
+                "type": "string",
+                "shouldNotNull": true
+            },
+            "district_id": {
+                "type": "string",
+                "shouldNotNull": true,
+                "unique": true
+            },
+            "block_id": {
+                "type": "string",
+                "shouldNotNull": true,
+                "unique": true
+            },
+            "cluster_id": {
+                "type": "string",
+                "shouldNotNull": true,
+                "unique": true
+            },
+            "school_id": {
+                "type": "string",
+                "shouldNotNull": true,
+                "unique": true
+            },
+            "schoolcategory_name": {
+                "type": "string",
+                "shouldNotNull": true,
+                "unique": true
+                
+            },
+            "grade": {
+                "type": "string",
+                "shouldNotNull": true
+            },
+            "teachers_marked_present": {
+                "type": "number",
+                "shouldNotNull": true
+            }
+        },
+        "required": [
+            "date",
+            "district_id",
+            "block_id",
+            "cluster_id",
+            "school_id",
+            "schoolcategory_name",
+            "grade",
+            "teachers_marked_present"
+        ]
+    }
+}
+

@@ -1,0 +1,41 @@
+{
+    "program": "NISHTHA_Medium_of_instruction",
+    "input": {
+        "type": "object",
+        "properties": {
+            "sl_no": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "program_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "language": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "status": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "sl_no",
+            "state_code",
+            "state_name",
+            "program_name",
+            "language",
+            "status"
+            
+        ]
+    }
+}

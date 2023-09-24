@@ -1,0 +1,36 @@
+{
+    "program": "pm-poshan_state-onboarded",
+    "input": {
+        "type": "object",
+        "properties": {
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "latitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "longitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "onboarded_on_pmposhan": {
+                "type": "number",
+                "shouldNotNull": true,
+                "enum": [0,1]
+            }
+        },
+        "required": [
+            "state_name",
+            "state_code",
+            "latitude",
+            "longitude",
+            "onboarded_on_pmposhan"
+        ]
+    }
+}

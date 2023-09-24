@@ -1,0 +1,55 @@
+{
+    "program": "pgi_state-wise-performance",
+    "input": {
+        "type": "object",
+        "properties": {
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "latitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "longitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "learningoutcomes_and_quality": {
+                "type": "number",
+                "shouldNotNull": true
+            },
+            "access": {
+                "type": "number",
+                "shouldNotNull": true
+            },
+            "infrastructure_and_facilities": {
+                "type": "number",
+                "shouldNotNull": true
+            },
+            "equity": {
+                "type": "number",
+                "shouldNotNull": true
+            },
+            "governance_processes": {
+                "type": "number",
+                "shouldNotNull": true
+            }
+        },
+         "required": [
+            "state_name",
+            "state_code",
+            "latitude",
+            "longitude",
+            "learningoutcomes_and_quality",
+            "access",
+            "infrastructure_and_facilities",
+            "equity",
+            "governance_processes"
+        ]
+    }
+}

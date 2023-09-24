@@ -1,0 +1,30 @@
+{
+    "program": "NISHTHA_program-wise_achieved_certification",
+    "input": {
+        "type": "object",
+        "properties": {
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "program_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "total_certifications_achieved": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "state_name",
+            "state_code",
+            "program_name",
+            "total_certifications_achieved"   
+        ]
+    }
+}

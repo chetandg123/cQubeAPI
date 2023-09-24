@@ -1,0 +1,75 @@
+{
+    "program": "ncf_all-dashboard",
+    "input": {
+        "type": "object",
+        "properties": {
+            "serial_no": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "latitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "longitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "mobile_survey_completed": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "number_of_dcr_to_be_uploaded": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "dcr_completed_uploaded": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "state_position_paper_e-template_submitted": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "national_district_groups_created": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "national_dcr_submitted": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "national_dcr_target": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_ssc_onboarded": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "serial_no",
+            "state_name",
+            "state_code",
+            "latitude",
+            "longitude",
+            "mobile_survey_completed",
+            "number_of_dcr_to_be_uploaded",
+            "dcr_completed_uploaded",
+            "state_position_paper_e-template_submitted",
+            "national_district_groups_created",
+            "national_dcr_submitted",
+            "national_dcr_target",
+            "total_ssc_onboarded"
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "program": "NISHTHA_program_implementation_status",
+    "input": {
+        "type": "object",
+        "properties": {
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+             "district_name":{
+            "type": "string",
+            "shouldnotnull": true
+            },
+            "district_code":{
+             "type": "string",
+            "shouldnotnull": true
+            },
+            "program_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "program_status": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "started": {
+            	"type": "number",
+            	"shouldnotnull": true
+            }
+        },
+        "required": [
+            "state_name",
+            "state_code",
+            "district_name",
+            "district_code",
+            "program_name",
+            "program_status",
+            "started"   
+        ]
+    }
+}
