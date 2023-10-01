@@ -11,7 +11,7 @@ Feature: Defining the API url and State_Code
 # mvn test -Dkarate.options="--tags @vsk-ingest"
     
 Scenario: Define the URL 
-    * def app_url = "https://cqube-aug11-demo2.tibilprojects.com/"
+    * def app_url = "<url>"
     * def state_code = 'JH'
     * def storage_type = ''
     * def min = 15

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: cqubeApp.ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.865 s <<< FAILURE! - in cqubeApp.ExamplesTest
+testParallel  Time elapsed: 6.85 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: ingest_type
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "ingest_type" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature:63
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Cannot GET /event'
+  'must have required property 'program''
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:25
+match failed: EQUALS
+  $ | data types don't match (LIST:STRING)
+  [{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"program"},"message":"must have required property 'program'"}]
+  'something went wrong'
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:32 ==> expected: <0> but was: <3>
+	at cqubeApp.ExamplesTest.testParallel(ExamplesTest.java:15)
+

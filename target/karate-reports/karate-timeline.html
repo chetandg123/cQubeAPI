@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-1","id":1},{"content":"pool-1-thread-2","id":2},{"content":"pool-1-thread-3","id":3},{"content":"pool-1-thread-4","id":4},{"content":"pool-1-thread-5","id":5}];
+var items = [{"id":1,"group":1,"content":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[1:13]","start":1696175598184,"end":1696175599367,"title":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[1:13] 21:23:18.184-21:23:19.367 Verify the ingestion api using GET Method"},{"id":2,"group":2,"content":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[2:21]","start":1696175598189,"end":1696175599389,"title":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[2:21] 21:23:18.189-21:23:19.389 Verify the ingestion api without providing request data and Authorization"},{"id":3,"group":3,"content":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[3:31]","start":1696175598188,"end":1696175601231,"title":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[3:31] 21:23:18.188-21:23:21.231 Verify the ingestion api without providing ingestion name"},{"id":4,"group":4,"content":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[4:44]","start":1696175598189,"end":1696175601118,"title":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[4:44] 21:23:18.189-21:23:21.118 Verify the ingestion api without providing ingestion type"},{"id":5,"group":5,"content":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[5:58]","start":1696175598190,"end":1696175599560,"title":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[5:58] 21:23:18.190-21:23:19.560 Verify the ingestion api without providing program_name","className":"failed"},{"id":6,"group":1,"content":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[6:72]","start":1696175599383,"end":1696175599706,"title":"cqubeApp\/cqube_api\/Negative_Validations\/validate_ingestion_api[6:72] 21:23:19.383-21:23:19.706 Verify the ingestion api without importing csv file"},{"id":7,"group":2,"content":"cqubeApp\/cqube_api\/Negative_Validations\/validate_spec_api[1:11]","start":1696175599409,"end":1696175599531,"title":"cqubeApp\/cqube_api\/Negative_Validations\/validate_spec_api[1:11] 21:23:19.409-21:23:19.531 Verify the spec api without giving request body with GET method"},{"id":8,"group":2,"content":"cqubeApp\/cqube_api\/Negative_Validations\/validate_spec_api[2:19]","start":1696175599540,"end":1696175599733,"title":"cqubeApp\/cqube_api\/Negative_Validations\/validate_spec_api[2:19] 21:23:19.540-21:23:19.733 Verify the spec API giving request body with GET method","className":"failed"},{"id":9,"group":5,"content":"cqubeApp\/cqube_api\/Negative_Validations\/validate_spec_api[3:27]","start":1696175599585,"end":1696175599724,"title":"cqubeApp\/cqube_api\/Negative_Validations\/validate_spec_api[3:27] 21:23:19.585-21:23:19.724 Verify the spec api without giving request body","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

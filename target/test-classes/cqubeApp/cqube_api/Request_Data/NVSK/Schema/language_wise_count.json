@@ -1,0 +1,20 @@
+{
+    "program": "language_wise_count",
+    "input": {
+        "type": "object",
+        "properties": {
+            "language": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "number_of_participants": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "language",
+            "number_of_participants"
+        ]
+    }
+}

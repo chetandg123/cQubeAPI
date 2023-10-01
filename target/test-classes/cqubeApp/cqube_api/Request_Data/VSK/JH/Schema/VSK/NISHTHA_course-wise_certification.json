@@ -1,0 +1,40 @@
+{
+    "program": "NISHTHA_course-wise_certification",
+    "input": {
+        "type": "object",
+        "properties": {
+            "program_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "course_id": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_name":{
+            "type": "string",
+            "shouldnotnull": true
+            },
+            "state_code":{
+             "type": "string",
+             "shouldnotnull": true
+            },
+            "course_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "total_certification": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "program_name",
+            "course_id",
+            "state_name",
+            "state_code",
+            "course_name",
+            "total_certification"
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "program": "diksha_quiz_state-participation",
+    "input": {
+        "type": "object",
+        "properties": {
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "quiz_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "medium": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "total_enrollments": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "latitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "longitude": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "state_name",
+            "quiz_name",
+            "medium",
+            "total_enrollments",
+            "state_code",
+            "latitude",
+            "longitude"
+        ]
+    }
+}

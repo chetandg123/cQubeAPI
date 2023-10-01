@@ -1,0 +1,70 @@
+{
+    "program": "nipun_bharat_entry_status",
+    "input": {
+        "type": "object",
+        "properties": {
+            "sr_no": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "quarter": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "module": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "sub_module": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "entry_status": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "entry_value": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_value": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "total_modules": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "latitude": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "longitude": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "sr_no",
+            "quarter",
+            "module",
+            "sub_module",
+            "entry_status",
+            "entry_value",
+            "total_value",
+            "total_modules",
+            "state_name",
+            "state_code",
+            "latitude",
+            "longitude"
+        ]
+    }
+}

@@ -1,0 +1,556 @@
+21:23:16.350 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @negative
+21:23:17.175 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:23:17.182 [main] DEBUG com.intuit.karate.Suite - waiting for 19 features to complete
+21:23:18.236 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:18.235 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:18.235 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:18.234 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:18.235 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:18.620 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:18.620 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:18.620 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:18.620 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:18.626 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.113 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 489
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 4
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.114 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 490
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 6
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.114 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 491
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 7
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.114 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 483
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 3
+1 < X-Kong-Proxy-Latency: 1
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.113 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 491
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 2
+1 < X-Kong-Proxy-Latency: 1
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.185 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+2 > POST https://cqube-ssl-test.tibilprojects.com/api/ingestion/new_programs
+2 > Host: cqube-ssl-test.tibilprojects.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.186 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/new_programs
+2 > Host: cqube-ssl-test.tibilprojects.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.294 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 109
+2 < 403
+2 < Server: nginx
+2 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 69
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < ETag: W/"45-T7Txzr/IRLfQ4TEPfbVWLpgje4Q"
+2 < X-Kong-Upstream-Latency: 1
+2 < X-Kong-Proxy-Latency: 0
+2 < Via: kong/3.4.0
+{"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+
+21:23:19.305 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 116
+2 < 404
+2 < Server: nginx
+2 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 75
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < ETag: W/"4b-JW/Uq/GLytZgF9r/DbW8qLSn94Q"
+2 < X-Kong-Upstream-Latency: 1
+2 < X-Kong-Proxy-Latency: 0
+2 < Via: kong/3.4.0
+{"statusCode":404,"message":"Cannot GET /new_programs","error":"Not Found"}
+
+21:23:19.311 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "statusCode": 403,
+  "message": "Forbidden resource",
+  "error": "Forbidden"
+}
+ 
+21:23:19.308 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "statusCode": 404,
+  "message": "Cannot GET /new_programs",
+  "error": "Not Found"
+}
+ 
+21:23:19.373 [pool-1-thread-2] INFO  com.intuit.karate - [print] json 
+21:23:19.384 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:19.409 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.410 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:19.442 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com//api/spec/event
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.485 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 73
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 2
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.527 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 81
+1 < 404
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 68
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < ETag: W/"44-csO9ftCjCVExdHPwsvX6hbi8aRo"
+1 < X-Kong-Upstream-Latency: 1
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+{"statusCode":404,"message":"Cannot GET /event","error":"Not Found"}
+
+21:23:19.528 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "statusCode": 404,
+  "message": "Cannot GET /event",
+  "error": "Not Found"
+}
+ 
+21:23:19.540 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:19.549 [pool-1-thread-1] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="ingestion_type"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 5
+Completed: true
+IsInMemory: true
+21:23:19.550 [pool-1-thread-1] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="ingestion_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+21:23:19.551 [pool-1-thread-1] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+21:23:19.553 [pool-1-thread-4] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="ingestion_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 14
+Completed: true
+IsInMemory: true
+21:23:19.557 [pool-1-thread-4] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+21:23:19.560 [pool-1-thread-5] ERROR com.intuit.karate - classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature:63
+And multipart field ingestion_type = ingest_type
+js failed:
+>>>>
+01: ingest_type
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "ingest_type" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature:63
+21:23:19.568 [pool-1-thread-3] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="ingestion_type"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 5
+Completed: true
+IsInMemory: true
+21:23:19.586 [pool-1-thread-3] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+21:23:19.586 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:19.607 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > POST https://cqube-ssl-test.tibilprojects.com/api/ingestion/new_programs
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+2 > Content-Type: multipart/form-data; boundary=5331f848e2e21f35
+2 > Content-Length: 478
+2 > Host: cqube-ssl-test.tibilprojects.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+2 > Accept-Encoding: gzip,deflate
+
+content-disposition: form-data; name="ingestion_type"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 5
+Completed: true
+IsInMemory: true
+
+content-disposition: form-data; name="ingestion_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+
+content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+
+
+21:23:19.610 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+2 > POST https://cqube-ssl-test.tibilprojects.com/api/ingestion/new_programs
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+2 > Content-Type: multipart/form-data; boundary=43fdf7bafd67a9bb
+2 > Content-Length: 1305944
+2 > Host: cqube-ssl-test.tibilprojects.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+2 > Accept-Encoding: gzip,deflate
+
+Mixed: content-disposition: form-data; name="file"; filename="#(file)"
+content-type: text/csv; charset=UTF-8
+content-length: 1305450
+Completed: true
+IsInMemory: false
+RealFile: /home/chethan/sprint/cQubeAPI/target/test-classes/cqubeApp/cqube_api/Negative_Validations/../Request_Data/VSK/JH/Input_Data/Teacher_Attendance/teachersmarked-event.data.csv DeleteAfter: true
+
+content-disposition: form-data; name="ingestion_type"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 5
+Completed: true
+IsInMemory: true
+
+content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+
+
+21:23:19.611 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://cqube-ssl-test.tibilprojects.com//api/spec/event
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.613 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+2 > POST https://cqube-ssl-test.tibilprojects.com/api/ingestion/new_programs
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+2 > Content-Type: multipart/form-data; boundary=c5cbe99376053d5a
+2 > Content-Length: 1305954
+2 > Host: cqube-ssl-test.tibilprojects.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+2 > Accept-Encoding: gzip,deflate
+
+Mixed: content-disposition: form-data; name="file"; filename="#(file)"
+content-type: text/csv; charset=UTF-8
+content-length: 1305450
+Completed: true
+IsInMemory: false
+RealFile: /home/chethan/sprint/cQubeAPI/target/test-classes/cqubeApp/cqube_api/Negative_Validations/../Request_Data/VSK/JH/Input_Data/Teacher_Attendance/teachersmarked-event.data.csv DeleteAfter: true
+
+content-disposition: form-data; name="ingestion_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 14
+Completed: true
+IsInMemory: true
+
+content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+
+
+21:23:19.618 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com//api/spec/event
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+../Request_Data/VSK/JH/Schema/diksha_etb_learning-session.json
+
+21:23:19.697 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 75
+2 < 400
+2 < Server: nginx
+2 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 69
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < ETag: W/"45-S3yEiDNIvxXj1AsWs97RoQJRqXs"
+2 < X-Kong-Upstream-Latency: 2
+2 < X-Kong-Proxy-Latency: 1
+2 < Via: kong/3.4.0
+{"statusCode":400,"message":"File is required","error":"Bad Request"}
+
+21:23:19.698 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "statusCode": 400,
+  "message": "File is required",
+  "error": "Bad Request"
+}
+ 
+21:23:19.714 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 92
+1 < 400
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 169
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < ETag: W/"a9-dLMSUZijziVO9FGnvY0LQ+MYzFo"
+1 < X-Kong-Upstream-Latency: 0
+1 < X-Kong-Proxy-Latency: 1
+1 < Via: kong/3.4.0
+{"message":[{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"program"},"message":"must have required property 'program'"}]}
+
+21:23:19.724 [pool-1-thread-5] ERROR com.intuit.karate - classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:32
+And match response.message == "something went wrong"
+match failed: EQUALS
+  $ | data types don't match (LIST:STRING)
+  [{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"program"},"message":"must have required property 'program'"}]
+  'something went wrong'
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:32
+21:23:19.730 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 108
+1 < 404
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 68
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < ETag: W/"44-csO9ftCjCVExdHPwsvX6hbi8aRo"
+1 < X-Kong-Upstream-Latency: 1
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+{"statusCode":404,"message":"Cannot GET /event","error":"Not Found"}
+
+21:23:19.734 [pool-1-thread-2] ERROR com.intuit.karate - classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:25
+And match response.message == "must have required property 'program'"
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Cannot GET /event'
+  'must have required property 'program''
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:25
+21:23:21.088 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1465
+2 < 400
+2 < Server: nginx
+2 < Date: Sun, 01 Oct 2023 15:53:21 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 183
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < ETag: W/"b7-51z3Ewj/tPY51ihCU6CLw5Wj6zk"
+2 < X-Kong-Upstream-Latency: 9
+2 < X-Kong-Proxy-Latency: 3
+2 < Via: kong/3.4.0
+{"message":[{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"ingestion_type"},"message":"must have required property 'ingestion_type'"}]}
+
+21:23:21.098 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "message": [
+    {
+      "instancePath": "",
+      "schemaPath": "#/required",
+      "keyword": "required",
+      "params": {
+        "missingProperty": "ingestion_type"
+      },
+      "message": "must have required property 'ingestion_type'"
+    }
+  ]
+}
+ 
+21:23:21.222 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1601
+2 < 400
+2 < Server: nginx
+2 < Date: Sun, 01 Oct 2023 15:53:21 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 183
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < ETag: W/"b7-XLRWP9tK+pgR1jYOFiVUXNRz1Ww"
+2 < X-Kong-Upstream-Latency: 8
+2 < X-Kong-Proxy-Latency: 2
+2 < Via: kong/3.4.0
+{"message":[{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"ingestion_name"},"message":"must have required property 'ingestion_name'"}]}
+
+21:23:21.225 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "message": [
+    {
+      "instancePath": "",
+      "schemaPath": "#/required",
+      "keyword": "required",
+      "params": {
+        "missingProperty": "ingestion_name"
+      },
+      "message": "must have required property 'ingestion_name'"
+    }
+  ]
+}
+ 
+21:23:22.591 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 12 of 19 (7 remaining) classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature
+21:23:22.759 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 14 of 19 (5 remaining) classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature

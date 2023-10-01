@@ -1,0 +1,51 @@
+{
+    "program": "NISHTHA_medium_of_instructions",
+    "input": {
+        "type": "object",
+        "properties": {
+            "sl_no": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "state_code": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "district_name":{
+            "type": "string",
+            "shouldnotnull": true
+            },
+            "district_code":{
+             "type": "string",
+            "shouldnotnull": true
+            },
+            "program_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "language": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "status": {
+                "type": "number",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "sl_no",
+            "state_code",
+            "state_name",
+            "district_name",
+            "district_code",
+            "program_name",
+            "language",
+            "status"
+            
+        ]
+    }
+}

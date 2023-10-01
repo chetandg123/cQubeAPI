@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cqubeApp.ExamplesTest" time="6.865" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/chethan/sprint/cQubeAPI/target/test-classes:/home/chethan/sprint/cQubeAPI/target/classes:/home/chethan/.m2/repository/com/intuit/karate/karate-junit5/1.2.0/karate-junit5-1.2.0.jar:/home/chethan/.m2/repository/com/intuit/karate/karate-core/1.2.0/karate-core-1.2.0.jar:/home/chethan/.m2/repository/org/graalvm/js/js-scriptengine/21.2.0/js-scriptengine-21.2.0.jar:/home/chethan/.m2/repository/org/graalvm/sdk/graal-sdk/21.2.0/graal-sdk-21.2.0.jar:/home/chethan/.m2/repository/org/graalvm/js/js/21.2.0/js-21.2.0.jar:/home/chethan/.m2/repository/org/graalvm/regex/regex/21.2.0/regex-21.2.0.jar:/home/chethan/.m2/repository/org/graalvm/truffle/truffle-api/21.2.0/truffle-api-21.2.0.jar:/home/chethan/.m2/repository/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar:/home/chethan/.m2/repository/org/thymeleaf/thymeleaf/3.0.14.RELEASE/thymeleaf-3.0.14.RELEASE.jar:/home/chethan/.m2/repository/ognl/ognl/3.1.26/ognl-3.1.26.jar:/home/chethan/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/home/chethan/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar:/home/chethan/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/home/chethan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/chethan/.m2/repository/com/linecorp/armeria/armeria/1.13.4/armeria-1.13.4.jar:/home/chethan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/home/chethan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/home/chethan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/home/chethan/.m2/repository/io/micrometer/micrometer-core/1.7.6/micrometer-core-1.7.6.jar:/home/chethan/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/home/chethan/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/home/chethan/.m2/repository/io/netty/netty-transport/4.1.70.Final/netty-transport-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-common/4.1.70.Final/netty-common-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-buffer/4.1.70.Final/netty-buffer-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-resolver/4.1.70.Final/netty-resolver-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec-http2/4.1.70.Final/netty-codec-http2-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec/4.1.70.Final/netty-codec-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-handler/4.1.70.Final/netty-handler-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec-http/4.1.70.Final/netty-codec-http-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec-haproxy/4.1.70.Final/netty-codec-haproxy-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-resolver-dns/4.1.70.Final/netty-resolver-dns-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec-dns/4.1.70.Final/netty-codec-dns-4.1.70.Final.jar:/home/chethan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/chethan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/chethan/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.70.Final/netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar:/home/chethan/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.70.Final/netty-resolver-dns-classes-macos-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.70.Final/netty-transport-native-unix-common-4.1.70.Final-linux-x86_64.jar:/home/chethan/.m2/repository/io/netty/netty-transport-native-epoll/4.1.70.Final/netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar:/home/chethan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.70.Final/netty-transport-native-unix-common-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.70.Final/netty-transport-classes-epoll-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.44.Final/netty-tcnative-boringssl-static-2.0.44.Final.jar:/home/chethan/.m2/repository/io/netty/netty-handler-proxy/4.1.70.Final/netty-handler-proxy-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec-socks/4.1.70.Final/netty-codec-socks-4.1.70.Final.jar:/home/chethan/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.6.0/brotli4j-1.6.0.jar:/home/chethan/.m2/repository/com/aayushatharva/brotli4j/native-linux-x86_64/1.6.0/native-linux-x86_64-1.6.0.jar:/home/chethan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/chethan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/chethan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/chethan/.m2/repository/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar:/home/chethan/.m2/repository/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar:/home/chethan/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.jar:/home/chethan/.m2/repository/org/antlr/antlr4-runtime/4.9.2/antlr4-runtime-4.9.2.jar:/home/chethan/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/home/chethan/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/home/chethan/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/home/chethan/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/chethan/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/chethan/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/chethan/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/home/chethan/.m2/repository/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/home/chethan/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/home/chethan/.m2/repository/io/github/classgraph/classgraph/4.8.108/classgraph-4.8.108.jar:/home/chethan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/home/chethan/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/chethan/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/chethan/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/home/chethan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/home/chethan/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/chethan/sprint/cQubeAPI/target/surefire/surefirebooter3887871489499626469.jar /home/chethan/sprint/cQubeAPI/target/surefire 2023-10-01T21-23-15_210-jvmRun1 surefire9430378329507105980tmp surefire_014778829459097394306tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/chethan/sprint/cQubeAPI/target/test-classes:/home/chethan/sprint/cQubeAPI/target/classes:/home/chethan/.m2/repository/com/intuit/karate/karate-junit5/1.2.0/karate-junit5-1.2.0.jar:/home/chethan/.m2/repository/com/intuit/karate/karate-core/1.2.0/karate-core-1.2.0.jar:/home/chethan/.m2/repository/org/graalvm/js/js-scriptengine/21.2.0/js-scriptengine-21.2.0.jar:/home/chethan/.m2/repository/org/graalvm/sdk/graal-sdk/21.2.0/graal-sdk-21.2.0.jar:/home/chethan/.m2/repository/org/graalvm/js/js/21.2.0/js-21.2.0.jar:/home/chethan/.m2/repository/org/graalvm/regex/regex/21.2.0/regex-21.2.0.jar:/home/chethan/.m2/repository/org/graalvm/truffle/truffle-api/21.2.0/truffle-api-21.2.0.jar:/home/chethan/.m2/repository/com/ibm/icu/icu4j/69.1/icu4j-69.1.jar:/home/chethan/.m2/repository/org/thymeleaf/thymeleaf/3.0.14.RELEASE/thymeleaf-3.0.14.RELEASE.jar:/home/chethan/.m2/repository/ognl/ognl/3.1.26/ognl-3.1.26.jar:/home/chethan/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/home/chethan/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar:/home/chethan/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/home/chethan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/chethan/.m2/repository/com/linecorp/armeria/armeria/1.13.4/armeria-1.13.4.jar:/home/chethan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/home/chethan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/home/chethan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/home/chethan/.m2/repository/io/micrometer/micrometer-core/1.7.6/micrometer-core-1.7.6.jar:/home/chethan/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/home/chethan/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/home/chethan/.m2/repository/io/netty/netty-transport/4.1.70.Final/netty-transport-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-common/4.1.70.Final/netty-common-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-buffer/4.1.70.Final/netty-buffer-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-resolver/4.1.70.Final/netty-resolver-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec-http2/4.1.70.Final/netty-codec-http2-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec/4.1.70.Final/netty-codec-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-handler/4.1.70.Final/netty-handler-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec-http/4.1.70.Final/netty-codec-http-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec-haproxy/4.1.70.Final/netty-codec-haproxy-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-resolver-dns/4.1.70.Final/netty-resolver-dns-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec-dns/4.1.70.Final/netty-codec-dns-4.1.70.Final.jar:/home/chethan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/chethan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/chethan/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.70.Final/netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar:/home/chethan/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.70.Final/netty-resolver-dns-classes-macos-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.70.Final/netty-transport-native-unix-common-4.1.70.Final-linux-x86_64.jar:/home/chethan/.m2/repository/io/netty/netty-transport-native-epoll/4.1.70.Final/netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar:/home/chethan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.70.Final/netty-transport-native-unix-common-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.70.Final/netty-transport-classes-epoll-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.44.Final/netty-tcnative-boringssl-static-2.0.44.Final.jar:/home/chethan/.m2/repository/io/netty/netty-handler-proxy/4.1.70.Final/netty-handler-proxy-4.1.70.Final.jar:/home/chethan/.m2/repository/io/netty/netty-codec-socks/4.1.70.Final/netty-codec-socks-4.1.70.Final.jar:/home/chethan/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.6.0/brotli4j-1.6.0.jar:/home/chethan/.m2/repository/com/aayushatharva/brotli4j/native-linux-x86_64/1.6.0/native-linux-x86_64-1.6.0.jar:/home/chethan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/chethan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/chethan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/chethan/.m2/repository/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar:/home/chethan/.m2/repository/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar:/home/chethan/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.32/jcl-over-slf4j-1.7.32.jar:/home/chethan/.m2/repository/org/antlr/antlr4-runtime/4.9.2/antlr4-runtime-4.9.2.jar:/home/chethan/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/home/chethan/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/home/chethan/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/home/chethan/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/chethan/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/chethan/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/chethan/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar:/home/chethan/.m2/repository/de/siegmar/fastcsv/2.0.0/fastcsv-2.0.0.jar:/home/chethan/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/home/chethan/.m2/repository/io/github/classgraph/classgraph/4.8.108/classgraph-4.8.108.jar:/home/chethan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/home/chethan/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/chethan/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/chethan/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/home/chethan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/home/chethan/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/chethan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/chethan/sprint/cQubeAPI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="karate.options" value="--tags @negative"/>
+    <property name="surefire.real.class.path" value="/home/chethan/sprint/cQubeAPI/target/surefire/surefirebooter3887871489499626469.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu122.04"/>
+    <property name="user.name" value="chethan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.2.0-33-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/chethan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.20.1"/>
+    <property name="user.dir" value="/home/chethan/sprint/cQubeAPI"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu122.04"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testParallel" classname="cqubeApp.ExamplesTest" time="6.85">
+    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: ingest_type&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;ingest_type&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature:63&#10;match failed: EQUALS&#10;  $ | not equal (STRING:STRING)&#10;  &apos;Cannot GET /event&apos;&#10;  &apos;must have required property &apos;program&apos;&apos;&#10;&#10;classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:25&#10;match failed: EQUALS&#10;  $ | data types don&apos;t match (LIST:STRING)&#10;  [{&quot;instancePath&quot;:&quot;&quot;,&quot;schemaPath&quot;:&quot;#/required&quot;,&quot;keyword&quot;:&quot;required&quot;,&quot;params&quot;:{&quot;missingProperty&quot;:&quot;program&quot;},&quot;message&quot;:&quot;must have required property &apos;program&apos;&quot;}]&#10;  &apos;something went wrong&apos;&#10;&#10;classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:32 ==&gt; expected: &lt;0&gt; but was: &lt;3&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: ingest_type
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "ingest_type" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature:63
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Cannot GET /event'
+  'must have required property 'program''
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:25
+match failed: EQUALS
+  $ | data types don't match (LIST:STRING)
+  [{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"program"},"message":"must have required property 'program'"}]
+  'something went wrong'
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:32 ==> expected: <0> but was: <3>
+	at cqubeApp.ExamplesTest.testParallel(ExamplesTest.java:15)
+]]></failure>
+    <system-out><![CDATA[21:23:16.350 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @negative
+21:23:17.175 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:23:17.182 [main] DEBUG com.intuit.karate.Suite - waiting for 19 features to complete
+21:23:18.236 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:18.235 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:18.235 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:18.234 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:18.235 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:18.620 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:18.620 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:18.620 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:18.620 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:18.626 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.113 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 491
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 2
+1 < X-Kong-Proxy-Latency: 1
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.113 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 489
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 4
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.114 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 490
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 6
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.114 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 491
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 7
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.114 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 483
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 3
+1 < X-Kong-Proxy-Latency: 1
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.185 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+2 > POST https://cqube-ssl-test.tibilprojects.com/api/ingestion/new_programs
+2 > Host: cqube-ssl-test.tibilprojects.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.186 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/new_programs
+2 > Host: cqube-ssl-test.tibilprojects.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+2 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.294 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 109
+2 < 403
+2 < Server: nginx
+2 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 69
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < ETag: W/"45-T7Txzr/IRLfQ4TEPfbVWLpgje4Q"
+2 < X-Kong-Upstream-Latency: 1
+2 < X-Kong-Proxy-Latency: 0
+2 < Via: kong/3.4.0
+{"statusCode":403,"message":"Forbidden resource","error":"Forbidden"}
+
+21:23:19.305 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 116
+2 < 404
+2 < Server: nginx
+2 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 75
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < ETag: W/"4b-JW/Uq/GLytZgF9r/DbW8qLSn94Q"
+2 < X-Kong-Upstream-Latency: 1
+2 < X-Kong-Proxy-Latency: 0
+2 < Via: kong/3.4.0
+{"statusCode":404,"message":"Cannot GET /new_programs","error":"Not Found"}
+
+21:23:19.311 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "statusCode": 403,
+  "message": "Forbidden resource",
+  "error": "Forbidden"
+}
+ 
+21:23:19.308 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "statusCode": 404,
+  "message": "Cannot GET /new_programs",
+  "error": "Not Found"
+}
+ 
+21:23:19.373 [pool-1-thread-2] INFO  com.intuit.karate - [print] json 
+21:23:19.384 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:19.409 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com/api/ingestion/generatejwt
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.410 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:19.442 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com//api/spec/event
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.485 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 73
+1 < 200
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 201
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < ETag: W/"c9-qNsESO7HGVUKMGQ+OCXcpSq5wT0"
+1 < X-Kong-Upstream-Latency: 2
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+1 < X-Frame-Options: SAMEORIGIN
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Content-Security-Policy: https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+1 < Referrer-Policy: strict-origin
+1 < Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+
+21:23:19.527 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 81
+1 < 404
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 68
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < ETag: W/"44-csO9ftCjCVExdHPwsvX6hbi8aRo"
+1 < X-Kong-Upstream-Latency: 1
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+{"statusCode":404,"message":"Cannot GET /event","error":"Not Found"}
+
+21:23:19.528 [pool-1-thread-2] INFO  com.intuit.karate - [print] {
+  "statusCode": 404,
+  "message": "Cannot GET /event",
+  "error": "Not Found"
+}
+ 
+21:23:19.540 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:19.549 [pool-1-thread-1] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="ingestion_type"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 5
+Completed: true
+IsInMemory: true
+21:23:19.550 [pool-1-thread-1] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="ingestion_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+21:23:19.551 [pool-1-thread-1] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+21:23:19.553 [pool-1-thread-4] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="ingestion_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 14
+Completed: true
+IsInMemory: true
+21:23:19.557 [pool-1-thread-4] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+21:23:19.560 [pool-1-thread-5] ERROR com.intuit.karate - classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature:63
+And multipart field ingestion_type = ingest_type
+js failed:
+>>>>
+01: ingest_type
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "ingest_type" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature:63
+21:23:19.568 [pool-1-thread-3] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="ingestion_type"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 5
+Completed: true
+IsInMemory: true
+21:23:19.586 [pool-1-thread-3] DEBUG c.i.karate.http.MultiPartBuilder - multipart: content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+21:23:19.586 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:19.607 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > POST https://cqube-ssl-test.tibilprojects.com/api/ingestion/new_programs
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+2 > Content-Type: multipart/form-data; boundary=5331f848e2e21f35
+2 > Content-Length: 478
+2 > Host: cqube-ssl-test.tibilprojects.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+2 > Accept-Encoding: gzip,deflate
+
+content-disposition: form-data; name="ingestion_type"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 5
+Completed: true
+IsInMemory: true
+
+content-disposition: form-data; name="ingestion_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+
+content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+
+
+21:23:19.610 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+2 > POST https://cqube-ssl-test.tibilprojects.com/api/ingestion/new_programs
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+2 > Content-Type: multipart/form-data; boundary=43fdf7bafd67a9bb
+2 > Content-Length: 1305944
+2 > Host: cqube-ssl-test.tibilprojects.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+2 > Accept-Encoding: gzip,deflate
+
+Mixed: content-disposition: form-data; name="file"; filename="#(file)"
+content-type: text/csv; charset=UTF-8
+content-length: 1305450
+Completed: true
+IsInMemory: false
+RealFile: /home/chethan/sprint/cQubeAPI/target/test-classes/cqubeApp/cqube_api/Negative_Validations/../Request_Data/VSK/JH/Input_Data/Teacher_Attendance/teachersmarked-event.data.csv DeleteAfter: true
+
+content-disposition: form-data; name="ingestion_type"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 5
+Completed: true
+IsInMemory: true
+
+content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+
+
+21:23:19.611 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://cqube-ssl-test.tibilprojects.com//api/spec/event
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:23:19.613 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+2 > POST https://cqube-ssl-test.tibilprojects.com/api/ingestion/new_programs
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiU3VuIE9jdCAwMSAyMDIzIDE1OjUzOjE5IEdNVCswMDAwIChDb29yZGluYXRlZCBVbml2ZXJzYWwgVGltZSkiLCJpYXQiOjE2OTYxNzU1OTl9.hlNKJBWQqnAHg0neG2N5nsPPdAMmZ4XxnLnnyYysEvo
+2 > Content-Type: multipart/form-data; boundary=c5cbe99376053d5a
+2 > Content-Length: 1305954
+2 > Host: cqube-ssl-test.tibilprojects.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+2 > Accept-Encoding: gzip,deflate
+
+Mixed: content-disposition: form-data; name="file"; filename="#(file)"
+content-type: text/csv; charset=UTF-8
+content-length: 1305450
+Completed: true
+IsInMemory: false
+RealFile: /home/chethan/sprint/cQubeAPI/target/test-classes/cqubeApp/cqube_api/Negative_Validations/../Request_Data/VSK/JH/Input_Data/Teacher_Attendance/teachersmarked-event.data.csv DeleteAfter: true
+
+content-disposition: form-data; name="ingestion_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 14
+Completed: true
+IsInMemory: true
+
+content-disposition: form-data; name="program_name"; filename=""
+content-type: text/plain; charset=UTF-8
+content-length: 17
+Completed: true
+IsInMemory: true
+
+
+21:23:19.618 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://cqube-ssl-test.tibilprojects.com//api/spec/event
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: cqube-ssl-test.tibilprojects.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.20.1)
+1 > Accept-Encoding: gzip,deflate
+../Request_Data/VSK/JH/Schema/diksha_etb_learning-session.json
+
+21:23:19.697 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 75
+2 < 400
+2 < Server: nginx
+2 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 69
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < ETag: W/"45-S3yEiDNIvxXj1AsWs97RoQJRqXs"
+2 < X-Kong-Upstream-Latency: 2
+2 < X-Kong-Proxy-Latency: 1
+2 < Via: kong/3.4.0
+{"statusCode":400,"message":"File is required","error":"Bad Request"}
+
+21:23:19.698 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "statusCode": 400,
+  "message": "File is required",
+  "error": "Bad Request"
+}
+ 
+21:23:19.714 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 92
+1 < 400
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 169
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < ETag: W/"a9-dLMSUZijziVO9FGnvY0LQ+MYzFo"
+1 < X-Kong-Upstream-Latency: 0
+1 < X-Kong-Proxy-Latency: 1
+1 < Via: kong/3.4.0
+{"message":[{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"program"},"message":"must have required property 'program'"}]}
+
+21:23:19.724 [pool-1-thread-5] ERROR com.intuit.karate - classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:32
+And match response.message == "something went wrong"
+match failed: EQUALS
+  $ | data types don't match (LIST:STRING)
+  [{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"program"},"message":"must have required property 'program'"}]
+  'something went wrong'
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:32
+21:23:19.730 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 108
+1 < 404
+1 < Server: nginx
+1 < Date: Sun, 01 Oct 2023 15:53:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 68
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < ETag: W/"44-csO9ftCjCVExdHPwsvX6hbi8aRo"
+1 < X-Kong-Upstream-Latency: 1
+1 < X-Kong-Proxy-Latency: 0
+1 < Via: kong/3.4.0
+{"statusCode":404,"message":"Cannot GET /event","error":"Not Found"}
+
+21:23:19.734 [pool-1-thread-2] ERROR com.intuit.karate - classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:25
+And match response.message == "must have required property 'program'"
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Cannot GET /event'
+  'must have required property 'program''
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:25
+21:23:21.088 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1465
+2 < 400
+2 < Server: nginx
+2 < Date: Sun, 01 Oct 2023 15:53:21 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 183
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < ETag: W/"b7-51z3Ewj/tPY51ihCU6CLw5Wj6zk"
+2 < X-Kong-Upstream-Latency: 9
+2 < X-Kong-Proxy-Latency: 3
+2 < Via: kong/3.4.0
+{"message":[{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"ingestion_type"},"message":"must have required property 'ingestion_type'"}]}
+
+21:23:21.098 [pool-1-thread-4] INFO  com.intuit.karate - [print] {
+  "message": [
+    {
+      "instancePath": "",
+      "schemaPath": "#/required",
+      "keyword": "required",
+      "params": {
+        "missingProperty": "ingestion_type"
+      },
+      "message": "must have required property 'ingestion_type'"
+    }
+  ]
+}
+ 
+21:23:21.222 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1601
+2 < 400
+2 < Server: nginx
+2 < Date: Sun, 01 Oct 2023 15:53:21 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 183
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < ETag: W/"b7-XLRWP9tK+pgR1jYOFiVUXNRz1Ww"
+2 < X-Kong-Upstream-Latency: 8
+2 < X-Kong-Proxy-Latency: 2
+2 < Via: kong/3.4.0
+{"message":[{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"ingestion_name"},"message":"must have required property 'ingestion_name'"}]}
+
+21:23:21.225 [pool-1-thread-3] INFO  com.intuit.karate - [print] {
+  "message": [
+    {
+      "instancePath": "",
+      "schemaPath": "#/required",
+      "keyword": "required",
+      "params": {
+        "missingProperty": "ingestion_name"
+      },
+      "message": "must have required property 'ingestion_name'"
+    }
+  ]
+}
+ 
+---------------------------------------------------------
+feature: classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature
+scenarios:  6 | passed:  5 | failed:  1 | time: 9.4897
+---------------------------------------------------------
+
+21:23:22.591 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 12 of 19 (7 remaining) classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature
+---------------------------------------------------------
+feature: classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature
+scenarios:  3 | passed:  1 | failed:  2 | time: 0.4377
+---------------------------------------------------------
+
+21:23:22.759 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 14 of 19 (5 remaining) classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature
+Karate version: 1.2.0
+======================================================
+elapsed:   6.42 | threads:    5 | thread time: 9.93 
+features:     2 | skipped:   17 | efficiency: 0.31
+scenarios:    9 | passed:     6 | failed: 3
+======================================================
+>>> failed features:
+js failed:
+>>>>
+01: ingest_type
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "ingest_type" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_ingestion_api.feature:63
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Cannot GET /event'
+  'must have required property 'program''
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:25
+match failed: EQUALS
+  $ | data types don't match (LIST:STRING)
+  [{"instancePath":"","schemaPath":"#/required","keyword":"required","params":{"missingProperty":"program"},"message":"must have required property 'program'"}]
+  'something went wrong'
+
+classpath:cqubeApp/cqube_api/Negative_Validations/validate_spec_api.feature:32
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.2.0
+file:///home/chethan/sprint/cQubeAPI/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

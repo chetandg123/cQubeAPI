@@ -1,0 +1,45 @@
+{
+    "program": "diksha_quiz-started-plan",
+    "input": {
+        "type": "object",
+        "properties": {
+            "status_date": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "collection_name": {
+                "type": "string",
+                "shouldnotnull": true
+            },
+            "total_enrolments": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "certificate_issued": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "completion%": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "non_completion%": {
+                "type": "number",
+                "shouldnotnull": true
+            },
+            "medium": {
+                "type": "string",
+                "shouldnotnull": true
+            }
+        },
+        "required": [
+            "status_date",
+            "collection_name",
+            "total_enrolments",
+            "certificate_issued",
+            "completion%",
+            "non_completion%",
+            "medium"
+        ]
+    }
+}
